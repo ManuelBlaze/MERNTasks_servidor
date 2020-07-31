@@ -1,1 +1,3 @@
-"# MERNTasks_servidor" 
+#Servidor MERNTasks
+
+Back end proyecto, Mongo, Express y Node
