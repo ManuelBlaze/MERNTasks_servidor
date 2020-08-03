@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const TareaSchema = mongoose.Schema({
-    nmbre: {
+    nombre: {
         type: String,
         required: true,
         trim: true
