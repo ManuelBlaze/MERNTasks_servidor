@@ -28,7 +28,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/proyectos', require('./routes/proyectos'));
 app.use('/api/tareas', require('./routes/tareas'));
 
-//arrancar la app
+//arrancar la app - > Heroku
 app.listen(port, '0.0.0.0', () => {
     console.log(`El servidor esta funcionando en el puerto ${port}`);
 })
